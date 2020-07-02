@@ -12,7 +12,7 @@ import javax.swing.JPanel;
 
 import org.omg.CORBA.PUBLIC_MEMBER;
 public class Disp extends JFrame{
- 
+ //////aaaaaaaaaaaaaaaaaaaaaaaaaa
 static Disp disp;
 	public static StartDisp start=new StartDisp();
 	static Mainmenu mainmenu=new Mainmenu();
