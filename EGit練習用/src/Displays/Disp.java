@@ -1,5 +1,8 @@
 package Displays;
 
+
+//コメント追加しました。曽我
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -10,9 +13,9 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
+//import org.omg.CORBA.PUBLIC_MEMBER;
 public class Disp extends JFrame{
- 
+
 static Disp disp;
 	public static StartDisp start=new StartDisp();
 	static Mainmenu mainmenu=new Mainmenu();
@@ -57,9 +60,9 @@ static Disp disp;
 //
 		//a音量
 		//	static FloatControl ctrl;
-		
-	
-		
+
+
+
         start.setVisible(true);
         setVisible(true);
 
@@ -86,7 +89,7 @@ static Disp disp;
         Music.bgm();
         }
 //
-       
+
 
 
 	static void setBack() {
